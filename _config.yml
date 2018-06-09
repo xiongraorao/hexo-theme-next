@@ -122,7 +122,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  schedule: /schedule/ || calendar
+  #schedule: /schedule/ || calendar
   sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
   #music: /music/ || music
@@ -160,9 +160,9 @@ social:
   E-Mail: mailto:xiongraorao@gmail.com || envelope
   Google: https://plus.google.com/109510977952432239538 || google
   微博: https://weibo.com/u/3605456425 || weibo
-  豆瓣: https://www.douban.com/people/139800623/ || 
-  知乎: https://www.zhihu.com/people/xiong-ge-78/
-  #Twitter: https://twitter.com/yourname || twitter
+  豆瓣: https://www.douban.com/people/139800623/ 
+  知乎: https://www.zhihu.com/people/xiong-ge-78/ 
+  Twitter: https://twitter.com/_Paul_forever || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
