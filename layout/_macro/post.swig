@@ -263,7 +263,7 @@
                 <span title="{{ __('symbols_count_time.count') }}">{#
                 #}{{ symbolsCount(post.content) }}{#
               #}</span>
-              {% endif %}
+              {% endif %}words
 
               {% if config.symbols_count_time.symbols and config.symbols_count_time.time %}
                 <span class="post-meta-divider">|</span>
@@ -279,7 +279,7 @@
                 <span title="{{ __('symbols_count_time.time') }}">{#
                 #}{{ symbolsTime(post.content, theme.symbols_count_time.awl, theme.symbols_count_time.wpm, __('symbols_count_time.time_minutes')) }}{#
               #}</span>
-              {% endif %}
+              {% endif %}mins
             </div>
           {% endif %}
 

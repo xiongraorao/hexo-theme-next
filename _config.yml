@@ -526,7 +526,7 @@ valine:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 gitment:
-  enable: true
+  enable: false
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
@@ -537,7 +537,17 @@ gitment:
   client_id: b26d67370855fd2d2294 # MUST HAVE, Github client id for the Gitment
   client_secret: f5b4b12d0ce3eb0bf7e9294eed6726f836f43ded # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
-  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint 
+
+# Gittalk
+gitalk:
+  enable: true
+  githubID: xiongraorao
+  repo: hexo-comment
+  ClientID: 4859c15bbe8a95c43467
+  ClientSecret: b344dbb77e74909e1cc588315b0572e77cc6ead7
+  adminUser: xiongraorao
+  distractionFreeMode: true
 
 # Baidu Share
 # Available value:
@@ -964,7 +974,7 @@ vendors:
   # Internal version: 1.0
   # https://github.com/theme-next/theme-next-reading-progress
   # Example: https://cdn.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1.1/reading_progress.min.js
-  reading_progress:
+  reading_progress: https://cdn.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1.1/reading_progress.min.js
 
   # valine comment
   # Example: https://cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js
@@ -975,3 +985,10 @@ vendors:
 css: css
 js: js
 images: images
+
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
