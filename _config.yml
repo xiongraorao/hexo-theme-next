@@ -287,8 +287,8 @@ symbols_count_time:
   separated_meta: true
   item_text_post: true
   item_text_total: false
-  awl: 4
-  wpm: 275
+  awl: 2
+  wpm: 300
 
 codeblock:
   # Manual define the border radius in codeblock
@@ -595,10 +595,11 @@ needmoreshare2:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: true
+baidu_site_verification: true
 
 # Google Analytics
-google_analytics: UA-120522271-1
+google_analytics: UA-120522271-2
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -985,10 +986,3 @@ vendors:
 css: css
 js: js
 images: images
-
-# Post wordcount display settings
-# Dependencies: https://github.com/willin/hexo-wordcount
-post_wordcount:
-  item_text: true
-  wordcount: true
-  min2read: true
