@@ -125,7 +125,7 @@ menu:
   #schedule: /schedule/ || calendar
   sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
-  #music: /music/ || music
+  music: /music/ || music
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
