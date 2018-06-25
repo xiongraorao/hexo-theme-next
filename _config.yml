@@ -288,7 +288,7 @@ symbols_count_time:
   item_text_post: true
   item_text_total: false
   awl: 2
-  wpm: 300
+  wpm: 275
 
 codeblock:
   # Manual define the border radius in codeblock
